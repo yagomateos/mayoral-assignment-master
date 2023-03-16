@@ -46,6 +46,8 @@ const Header = ({
   return (
     <Navbar bg="light" expand="lg" fixed="top">
       <Container fluid>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
         <Nav
           className="me-auto my-2 my-lg-0"
           style={{ maxHeight: "100px" }}
@@ -73,6 +75,7 @@ const Header = ({
             <a className="bi bi-dash" onClick={handleSortByPriceAscending}></a>
           </div>
         </Form>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

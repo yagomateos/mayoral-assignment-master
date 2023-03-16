@@ -10,7 +10,7 @@ const Footer = () => { //Definir componente funcional Footer
 
   useEffect(() => { //Definir efecto secundario para detectar cambios en el tamaño de la ventana
     const handleResize = () => { //Función para manejar los cambios de tamaño de ventana
-      setIsMobile(window.innerWidth < 471); //Actualizar estado de isMobile si el ancho de la ventana es menor que 471
+      setIsMobile(window.innerWidth < 664); //Actualizar estado de isMobile si el ancho de la ventana es menor que 664
     };
 
     handleResize(); //Ejecutar la función handleResize la primera vez

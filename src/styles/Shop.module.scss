@@ -1,22 +1,18 @@
 .shop {
-    display: grid;
-    gap: 2rem;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  display: grid;
+  gap: 2rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
   
-    @media(min-width: 250px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  @media(min-width: 250px) {
+  grid-template-columns: repeat(2, 1fr);
+  }
   
-    @media(min-width: 450px) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    @media(min-width: 664px) {
-      grid-template-columns: repeat(4, 1fr);
-    }
+  @media(min-width: 664px) {
+  grid-template-columns: repeat(4, 1fr);
+  }
   
-    @media(min-width: 1200px) {
-      grid-template-columns: repeat(5, 1fr);
-    }
+  @media(min-width: 1200px) {
+  grid-template-columns: repeat(5, 1fr);
+  }
   }

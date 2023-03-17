@@ -1,4 +1,4 @@
-INSTRUCCIONES
+<h1>INSTRUCCIONES</h1>
 
 Dependencias necesarias:<br>
     -npm i bootstrap-icons <br>

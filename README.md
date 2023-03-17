@@ -1,3 +1,5 @@
+INSTRUCIONES
+
 Dependencias necesarias:
     -npm i bootstrap-icons
     -npm install react-bootstrap bootstrap

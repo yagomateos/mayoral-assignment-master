@@ -1,4 +1,4 @@
-INSTRUCIONES
+INSTRUCCIONES
 
 Dependencias necesarias:
     -npm i bootstrap-icons

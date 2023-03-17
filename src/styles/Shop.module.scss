@@ -3,8 +3,9 @@
   gap: 2rem;
   margin-top: 100px;
   margin-bottom: 100px;
+  margin-right: 1rem;
   
-  @media(min-width: 250px) {
+  @media(min-width: 350px) {
   grid-template-columns: repeat(2, 1fr);
   }
   
